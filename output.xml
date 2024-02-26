@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.12.1 on win32)" generated="2024-01-28T05:04:32.030600" rpa="false" schemaversion="5">
+<suite id="s1" name="Hello" source="c:\QAx\projects\walkdog-robot\hello.robot">
+<test id="s1-t1" name="Deve mostrar uma mensagem de boas vindas" line="5">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Hello Robot</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-01-28T05:04:32.070419" elapsed="0.000000"/>
+</kw>
+<status status="PASS" start="2024-01-28T05:04:32.069419" elapsed="0.003334"/>
+</test>
+<doc>Meu primeiro teste em Robot Framework</doc>
+<status status="PASS" start="2024-01-28T05:04:32.038474" elapsed="0.036297"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Hello">Hello</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
